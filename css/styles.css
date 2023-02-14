@@ -142,7 +142,7 @@ body {
 }
 .overlay {
   max-width: 1440px;
-  min-height: 600px;
+
   margin-right: auto;
   margin-left: auto;
   background-image: linear-gradient(
@@ -206,8 +206,10 @@ body {
 
 .about-icon-box {
   display: flex;
-  height: 112px;
-  width: 264px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 102px;
+  padding-right: 102px;
   background: #f4f4fd;
   border-radius: 4px;
   gap: 24px;
@@ -215,10 +217,6 @@ body {
 
 .about-icon {
   display: flex;
-  margin-left: 102px;
-  margin-right: 102px;
-  margin-top: 24px;
-  margin-bottom: 24px;
   width: 64px;
   height: 64px;
 }
